@@ -1,11 +1,9 @@
-branches:
-  only:
-  - master
-  - dev
-  - issue-3
-import:
-- source: .travis/test.yml
-  if: branch = dev || branch = master || branch = issue-3
+language: python
+puthon: 3.8
+script: 
+  - cd PythonApplication1
+  - pytest
+  - cd ..
     
 deploy:
   provider: releases
@@ -17,4 +15,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
-    tags: false
+    tags: true
