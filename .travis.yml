@@ -4,12 +4,13 @@ script:
   - cd PythonApplication1
   - pytest
   - cd ..
-  
 deploy:
   provider: releases
-  pre-release: true
   api_key:
     secure: 4af3229afb43c12a981538e930f8d5096f37a70f
+  file: 
+    - sold
+    - sold.txt
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
