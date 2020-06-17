@@ -6,15 +6,6 @@ branches:
 import:
 - source: .travis/test.yml
   if: branch = dev || branch = master || branch = issue-3
-
-deploy:
-  provider: releases
-  pre-release: true
-  skip_cleanup: true
-  api_key: 3648aa7eee21b17dcb52d176fcf13c7f2cb9d4d1
-  file: drop
-  on:
-    tags: true
     
 deploy:
   provider: releases
