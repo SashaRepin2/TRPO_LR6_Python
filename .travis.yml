@@ -13,3 +13,5 @@ deploy:
   skip_cleanup: true
   api_key: 3648aa7eee21b17dcb52d176fcf13c7f2cb9d4d1
   file: drop
+  on:
+    tags: true
