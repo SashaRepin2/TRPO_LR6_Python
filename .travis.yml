@@ -1,6 +1,10 @@
-import:
-- source: .travis/test.yml
-    
+language: python
+puthon: 3.8
+script: 
+  - cd PythonApplication1
+  - pytest
+  - cd ..
+  
 deploy:
   provider: releases
   pre-release: true
