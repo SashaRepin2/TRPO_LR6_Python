@@ -8,10 +8,9 @@ script:
 deploy:
   provider: releases
   pre-release: true
+  edge: true
   api_key:
     secure: 3648aa7eee21b17dcb52d176fcf13c7f2cb9d4d1
-  file: 
-    - drop.txt
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
