@@ -7,7 +7,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: 6e:7c:59:6d:bd:67:a1:b6:e6:13:b8:73:e5:3b:53:ce
+    secure: AAAAB3NzaC1yc2EAAAADAQABAAABgQCb7qNdCqqDZuRpFoBfb5hr0s6tcnmChAY91g2hi5KR2I8114ex2lC//oMv79YkHWVyi8cvS/dYiEREz6KmyrZ5IZLvhlHC0cQpYDcrATto2ajFfoXsk8U3y+mOWhMCQh0Ch90344xGSms/G2zE2I2/WAQ7Ep0gbx3jqjbj5FijxXX47KqnVWf2NUw8o7OXnPb0z6j8LJ1plP5pq/0ORHV+oUlOOv7zSCos+IZEEmK7CA+obwxhz21Kt9qoO4UEUCebjRlKbXz7fBdqyE0sDTOC7Lsf2LE5VKony9us57Mq6cW66s4MtwfR0pxKPbDulmSraY2uKp4FFjWeQZv9z77P1HMRi7BD8JpE4OVVlx6mGpNG+U6Um0Jqypnegfut+kVLg93y0oJ83w9+qf2kVrvN/hYrUm3c0k2N8XCrojYchfKaUvsB3q8apewLUr6hJi+tfx1dok4Xm0gFEaDP7Kv5/U97ZqTQwYlGClL9ZuPo21wFlZxLnXAMKsDKRucXQLU=
   file: 
     - TRPO_LR6_Python
     - TRPO_LR6_Python.sha1
