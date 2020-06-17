@@ -7,11 +7,18 @@ import:
 - source: .travis/test.yml
   if: branch = dev || branch = master || branch = issue-3
   
+  
+before_deploy:
+- git config --local user.name PolyRibina
+- git config --local user.email poly.ribina@gmail.com
+- export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+- git tag $TRAVIS_TAG  
+
 deploy:
-  file_glob: true
+  provider: releases
+  pre-release: true
   skip_cleanup: true
   api_key: $GITHUB_TOKEN
   file: drop
   on:
     tags: true
-    branch: master
