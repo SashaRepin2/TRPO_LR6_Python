@@ -4,7 +4,7 @@ script:
   - cd PythonApplication1
   - pytest
   - cd ..
-  - sha1sum ruready > ruready.sha1
+  - sha1sum TRPO_LR6_Python > TRPO_LR6_Python.sha1
 deploy:
   provider: releases
   api_key:
