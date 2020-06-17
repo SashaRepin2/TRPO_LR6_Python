@@ -4,7 +4,6 @@ script:
   - cd PythonApplication1
   - pytest
   - cd ..
-  - sha1sum TRPO_LR6_Python > TRPO_LR6_Python.sha1
 deploy:
   provider: releases
   api_key:
@@ -15,4 +14,6 @@ deploy:
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
+    branch: dev
     tags: true
+    
