@@ -4,13 +4,14 @@ script:
   - cd PythonApplication1
   - pytest
   - cd ..
+  - sha1sum ruready > ruready.sha1
 deploy:
   provider: releases
   api_key:
     secure: 4af3229afb43c12a981538e930f8d5096f37a70f
   file: 
-    - PythonApplication1
-    - PythonApplication1.sha1
+    - TRPO_LR6_Python
+    - TRPO_LR6_Python.sha1
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
