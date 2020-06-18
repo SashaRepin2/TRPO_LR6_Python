@@ -6,7 +6,7 @@ script:
   - cd ..
 deploy:
   provider: releases
-  api_key: 6bcb4b222b1e724f99e4cc86e4d773613ad6b66d
+  github-token: $GITHUB_TOKEN
   file: 
     - TRPO_LR6_Python
     - TRPO_LR6_Python.sha1
