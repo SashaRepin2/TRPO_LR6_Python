@@ -6,7 +6,7 @@ script:
   - cd ..
 deploy:
   provider: releases
-  api_key: b4d0ad3c6913f1ddaf6f5f0d34649c6478bf8024
+  api_key: acb0dcb898ca45f598dcc03717fb31cd3b110574
   file: 
     - TRPO_LR6_Python
     - TRPO_LR6_Python.sha1
