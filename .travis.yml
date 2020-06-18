@@ -6,8 +6,7 @@ script:
   - cd ..
 deploy:
   provider: releases
-  user: PolyRibina
-  password: saf89632183428
+  api-key: a32dd0ba2734ada58c728f4f5c31e86f5881881f
   file: 
     - TRPO_LR6_Python
     - TRPO_LR6_Python.sha1
