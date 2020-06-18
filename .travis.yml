@@ -6,7 +6,8 @@ script:
   - cd ..
 deploy:
   provider: releases
-  api_key: b18828dd2952f87fcff9e356ead467eaf9fe5043
+  api_key: 
+    secure: "Chnms36XYvLWv7JeeVVJb1Ab7xNpBfRTydhVWO4y5QNuKeCfi1FMnSbnridYRZvouBeNunx59kPRBI6pM/YuWABifTpwG6HWCVyR0zDfsW7r4J/awFufsBXtbzyvO0gzaJDxqQJVVfjMQYahYy6j/GAifjlpWWcBvWq+7PDFHsWpGsksYmQsy3RI60uVDEerWj6eoD/sw7bW5rPzSyjvTRrWxelOGzTNrpLzoI3E4I+h4+sPOK/EfMpfC3LhbZeWe3/c4U9YAc4SnIR7oHWX4e+dtrFjHA8iuMXcwXTMK/45C8xI6OR7YDfjjxZjFLsdpF9YjcBN/LB4qxPXcoLkQYzBTObCe6WXcyh1Dv17d6iEPmOOv4+R9z22Sno03tep1m+Ld7fndtvmoRG4ZWZ+05IK/v4aFSIPu9S//lMAQXl+ZhXAXpsENF9FZgu77TNro3z9XmEif5QMD9DlNWecMswdeIq6kzcsq+beBERglndctAyD3OCxT6JbWUU98PTXJiMexeTnnSH/naOXpSiWlcOMEiGGzIpGNCeaLdOOwL9HD1eUJrt0bklyNXHnJurIAM06pLPlWO/U0jc/Bi2dXieqF1yTEw9mRa4abNA9RjIfZoTHkBfWhng24ZmgIgohBR9WmHR34NkUamv9N9mo8i8mC5kvbMMiqqJJNMzG0eA="
   file: 
     - TRPO_LR6_Python
     - TRPO_LR6_Python.sha1
