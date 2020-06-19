@@ -1,0 +1,14 @@
+language: python
+puthon: 3.8
+script: 
+  - cd PythonApplication1
+  - pytest
+  - cd ..
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  skip_cleanup: true
+  on:
+    repo: PolyRibina/TRPO_LR6_Python
+    branch: master
+    tags: true
