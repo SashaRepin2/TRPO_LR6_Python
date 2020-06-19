@@ -8,9 +8,6 @@ deploy:
   provider: releases
   prerelease: true
   api_key: $GITHUB_TOKEN
-  file: 
-    - TRPO_LR6_Python
-    - TRPO_LR6_Python.sha1
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
