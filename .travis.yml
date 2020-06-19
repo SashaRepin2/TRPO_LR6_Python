@@ -11,6 +11,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
-    branch: dev
+    branch: issue-5
     tags: true
-    
