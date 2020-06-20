@@ -4,6 +4,7 @@ script:
   - cd PythonApplication1
   - pytest
   - cd ..
+  
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
