@@ -7,10 +7,12 @@ script:
   
 deploy:
   provider: releases
-
+  
+  prerelease: true
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     repo: PolyRibina/TRPO_LR6_Python
-
+    
+    branch: dev
     tags: true
